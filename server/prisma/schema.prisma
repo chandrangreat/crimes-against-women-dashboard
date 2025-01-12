@@ -1,0 +1,21 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model crimes_on_women {
+  id                               Int     @id
+  state                            String? @db.Text
+  year                             Int?
+  rape                             Int?
+  kidnap_and_assault               Int?
+  dowry_deaths                     Int?
+  assault_against_women            Int?
+  assault_against_modesty_of_women Int?
+  domestic_violence                Int?
+  women_trafficking                Int?
+}
