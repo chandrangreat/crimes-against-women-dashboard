@@ -17,7 +17,9 @@ This project gives the state wise data of crimes against women in a proper forma
 
    ```
    npm install
+   ```
 
+   ```
    npm start
    ```
 
@@ -28,6 +30,8 @@ This project gives the state wise data of crimes against women in a proper forma
 
    ```
    npm install
+   ```
 
+   ```
    npm run dev
    ```
